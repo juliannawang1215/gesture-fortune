@@ -1,0 +1,8 @@
+{
+  "name": "Gesture Fortune",
+  "description": "Shake your hand in front of the camera to draw a fortune.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": []
+}
