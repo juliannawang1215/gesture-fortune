@@ -4,10 +4,20 @@
 
 # Gesture Fortune
 
+[中文](./README.zh-CN.md) · **English**
+
 Gesture Fortune is a small, mobile-first ritual for drawing a fortune with a physical gesture—then leaving a wish on a ribbon tree. It also includes an optional **immersive 3D scene** (Gaussian Splatting) for a “step into the temple” moment.
 
 ## Try it
 - **Live**: `https://gesture-fortune.vercel.app`
+
+## Screenshots
+
+<div align="center">
+  <img width="900" alt="Wishing Tree" src="./public/bg-tree.png" />
+  <br />
+  <img width="900" alt="Ritual background" src="./public/bg.png" />
+</div>
 
 ## What you’ll experience
 - **Shake to draw**: an intentional, tactile interaction instead of a button tap.
