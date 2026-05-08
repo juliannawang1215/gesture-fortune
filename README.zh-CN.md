@@ -1,5 +1,6 @@
 <div align="center">
-  <img width="1200" height="475" alt="Gesture Fortune 预览" src="./public/bg-tree.png" />
+  <img width="49%" alt="赛博摇签（中文）" src="./docs/hero/hero-zh.png" />
+  <img width="49%" alt="Cyber Fortune Sticks (English)" src="./docs/hero/hero-en.png" />
 </div>
 
 # Gesture Fortune

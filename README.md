@@ -1,5 +1,6 @@
 <div align="center">
-<img width="1200" height="475" alt="Gesture Fortune preview" src="./public/bg-tree.png" />
+  <img width="49%" alt="Cyber Fortune Sticks (ZH)" src="./docs/hero/hero-zh.png" />
+  <img width="49%" alt="Cyber Fortune Sticks (EN)" src="./docs/hero/hero-en.png" />
 </div>
 
 # Gesture Fortune
