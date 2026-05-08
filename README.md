@@ -4,12 +4,20 @@
 
 # Gesture Fortune
 
-A poetic, gesture-driven fortune ritual: shake (or move) your device to draw a fortune, then tie wishes to a ribbon tree. Includes an optional immersive 3D scene powered by Gaussian Splatting.
+Gesture Fortune is a small, mobile-first ritual for drawing a fortune with a physical gesture—then leaving a wish on a ribbon tree. It also includes an optional **immersive 3D scene** (Gaussian Splatting) for a “step into the temple” moment.
 
-## Tech stack
-- **Vite + React + TypeScript**
-- **Firebase** (rules/config included in repo)
-- **Gaussian Splat Viewer**: `@mkkellogg/gaussian-splats-3d` (optional immersive mode)
+## Try it
+- **Live**: `https://gesture-fortune.vercel.app`
+
+## What you’ll experience
+- **Shake to draw**: an intentional, tactile interaction instead of a button tap.
+- **Read and reflect**: a calm, minimal UI designed for short attention spans.
+- **Tie a wish**: leave your wish as a ribbon on the tree.
+- **Immersive mode (optional)**: load a real-world splat scene for presence + atmosphere.
+
+## Notes on privacy
+- The immersive 3D scene URLs are public assets. Anything prefixed with `VITE_` is shipped to the browser and is visible to users.
+- Do not place secrets in `VITE_` variables.
 
 ## Local development
 
@@ -43,10 +51,10 @@ npm run dev
 npm run build
 ```
 
-## Deploy (Vercel, Strategy A)
-This repo is intended to use a Git-based workflow:
+## Deploy (Vercel)
+This repo is set up for a Git-based workflow:
 - **Pull Requests → Preview deployments**
-- **`main` → Production deployment**
+- **`main` → Production deployment** (Strategy A)
 
 ### Vercel setup checklist
 1. Import this GitHub repository in Vercel.
@@ -56,6 +64,11 @@ This repo is intended to use a Git-based workflow:
 3. Add environment variables in Vercel (both **Production** and **Preview**):
    - `VITE_SPLAT_URL`
    - `VITE_SPLAT_TEMPLE_URL`
+
+## Tech (for contributors)
+- **Vite + React + TypeScript**
+- **Firebase** (rules/config included)
+- **Gaussian Splat Viewer**: `@mkkellogg/gaussian-splats-3d`
 
 ## CI
 GitHub Actions runs a minimal build gate on:
